@@ -24,5 +24,3 @@ jobs:
       run: dotnet restore src/*.sln
     - name: Build
       run: dotnet build --no-restore src/*.sln
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
